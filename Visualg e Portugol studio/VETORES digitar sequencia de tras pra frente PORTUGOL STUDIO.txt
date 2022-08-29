@@ -1,0 +1,22 @@
+programa
+{
+	
+	funcao inicio()
+	{
+      inteiro tamanho = 5 
+      real notas [5]
+      para ( inteiro i=0; i< tamanho; i++){
+     	escreva("digite um numero: ")
+     	leia(notas[i])
+     }
+      escreva ("ordem inversa \n")
+      para (inteiro i=4; i >= 0;i--){
+     	
+     	  escreva(notas[i], "\n")
+     	   
+     }
+
+
+	
+  }
+}

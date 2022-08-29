@@ -1,0 +1,26 @@
+Var
+
+  t, v, c, si: inteiro
+
+Inicio
+
+
+si<-0  //soma dos impares de 0 a 10
+t<-0   //total de 0 a 10
+para c <- 1 ate 6 faca
+  escreva("digite um valor  ")
+  leia(v)
+
+  se(v>=0) e (v<=10) entao
+    t<- t + 1
+   se(v%2=1) entao
+     escreval("numero impar  ")
+      si<- si + v
+
+   fimse
+  fimse
+fimpara
+escreval(t)
+escreval(si)
+
+Fimalgoritmo

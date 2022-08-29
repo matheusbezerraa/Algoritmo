@@ -1,0 +1,26 @@
+Var
+ C, t1, t2, t3: inteiro
+
+Procedimento fibonacci(var A, B: inteiro)
+Inicio
+  C<- A + B
+  escreva(C)
+  A<- B
+  B<- C
+  
+
+Fimprocedimento
+Inicio
+  t1<-0
+  escreva(t1)
+  t2<-1
+  escreva(t2)
+  para C <- 3 ate 10 faca
+      fibonacci(t1, t2)
+  fimpara
+  
+
+
+  
+  
+Fimalgoritmo

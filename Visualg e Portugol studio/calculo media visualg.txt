@@ -1,0 +1,31 @@
+ Algoritmo "semnome"
+// 
+//  
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 07/04/2022
+Var
+// Seção de Declarações das variáveis
+         n1, n2, media: real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+        escreva("digite sua primeira nota:")
+        leia(n1)
+        escreva("digite sua segunda nota:")
+        leia(n2)
+        media<-(n1+n2)/2
+        escreval("sua media foi:",media)
+
+        se(media>=7) entao
+           escreva("voce passou")
+        senao
+           se(media>=4) entao
+            escreva("voce esta de recuperaçao")
+           senao
+            escreva("voce foi reprovado")
+           fimse
+        fimse
+
+
+Fimalgoritmo

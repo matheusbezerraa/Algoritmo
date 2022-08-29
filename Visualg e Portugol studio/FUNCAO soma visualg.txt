@@ -1,0 +1,23 @@
+Algoritmo "semnome"
+
+Var
+// Seção de Declarações das variáveis 
+v1, v2, s: inteiro
+
+funcao gay(x, y: inteiro): inteiro
+inicio
+      retorne x + y
+fimfuncao
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+   escreva("v1: ")
+   leia(v1)
+   escreva("v2: ")
+   leia(v2)
+   
+   s <- gay(v1, v2)
+   
+   escreva("a soma foi ", s)
+
+Fimalgoritmo

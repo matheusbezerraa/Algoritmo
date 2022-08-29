@@ -1,0 +1,32 @@
+Var
+// Seção de Declarações das variáveis 
+ I: inteiro
+ N, Pesado: caractere
+ P, Mai: real
+
+
+Procedimento Topo()
+Inicio
+   limpatela
+   escreval(" detector de pesado")
+   escreval("maior peso ate ag", Mai,"kg")
+Fimprocedimento
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+
+    Topo()
+    para I <- 1 ate 5 faca
+      escreva("digite o nome: ")
+      leia(N)
+      escreva("digite o peso: ")
+      leia(P)
+      se(P>Mai) entao
+        Mai <- P
+        Pesado <- N
+      fimse
+      Topo()
+    fimpara
+    Topo()
+
+    escreval("a pessoa mais pesada foi ", Pesado," com ",Mai," kg")
+Fimalgoritmo

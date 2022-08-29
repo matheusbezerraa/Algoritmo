@@ -1,0 +1,26 @@
+Algoritmo "fatorial"
+//
+//
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 05/05/2022
+Var
+ N, v, f, cont: inteiro
+
+funcao fatorial(v: inteiro): inteiro
+Inicio
+
+     cont<- v
+     f<- 1
+    repita
+
+      f<- f * cont
+      cont<- cont - 1
+    ate(cont<1)
+Fimfuncao
+Inicio
+    escreva("digite um numero: ")
+    leia(N)
+    v <- fatorial(N)
+    escreva(f, " é o fatorial de", N)
+Fimalgoritmo

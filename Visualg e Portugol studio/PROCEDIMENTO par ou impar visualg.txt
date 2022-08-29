@@ -1,0 +1,17 @@
+Var
+ N, v: inteiro
+
+Procedimento parouimpar(v: inteiro)
+Inicio
+   se(v%2=1) entao
+     escreva("impar")
+   senao
+     escreva("par")
+   fimse
+
+Fimprocedimento
+Inicio
+    escreva("digite um numero:")
+    leia(N)
+    parouimpar(N)
+Fimalgoritmo

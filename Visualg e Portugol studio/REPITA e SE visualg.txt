@@ -1,0 +1,27 @@
+Algoritmo "totalnega"
+// 
+//  
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 14/04/2022
+Var
+// Seção de Declarações das variáveis 
+cont, n, totalnega: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+     cont<- 1
+     totalnega<- 0
+    repita
+      escreva("digite um numero:")
+      leia(n)
+      cont<- cont + 1
+      
+      se(n<0) entao
+
+        totalnega<- totalnega+ 1
+      fimse
+      
+    ate(cont>5)
+    escreval("foram digitados  ", totalnega,"  valores negativos")
+Fimalgoritmo

@@ -1,0 +1,28 @@
+Algoritmo "bacelonaxrealmadrid"
+//
+//
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 07/04/2022
+Var
+       golstotal, gols, gol1, gol2: inteiro
+
+Inicio
+       escreval("------------bacelona x real madrid-----------------")
+       escreva("quantos gols o barça fez:")
+       leia(gol1)
+       escreva("quantos gols o real fez:")
+       leia(gol2)
+       gols<-gol1-gol2
+       golstotal<-gol1+gol2
+       escreval("tiveram", golstotal," gols")
+       se(gols>=4)entao
+        escreva("goleada")
+       senao
+        se(gols=0)entao
+         escreva("empate")
+        senao
+         escreva("jogo normal")
+        fimse
+       fimse
+Fimalgoritmo

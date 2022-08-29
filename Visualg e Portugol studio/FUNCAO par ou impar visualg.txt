@@ -1,0 +1,20 @@
+Algoritmo "semnome"
+
+Var
+ N, v: inteiro
+
+funcao parouimpar(v: inteiro): inteiro
+Inicio
+   se(v%2=1) entao
+     escreva("impar")
+   senao
+     escreva("par")
+   fimse
+
+Fimfuncao
+Inicio
+    escreva("digite um numero:")
+    leia(N)
+    v <- parouimpar(N)
+    escreva(N, " é ")
+Fimalgoritmo

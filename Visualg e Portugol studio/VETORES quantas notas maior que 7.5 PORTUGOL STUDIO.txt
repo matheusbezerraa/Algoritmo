@@ -1,0 +1,29 @@
+
+Matheus Bezerra <matheus.freire.bezerra@gmail.com>
+09:42 (há 5 horas)
+para mim
+
+
+programa
+{
+	
+	funcao inicio()
+	{
+      inteiro tamanho = 5 
+      real notas [5]
+      para ( inteiro i=0; i< tamanho; i=i+1){
+     	escreva("digite a nota: ")
+     	leia(notas[i])
+     }
+      escreva ("notas>7.5\n")
+      para (inteiro i=0; i < tamanho;i=i+1){
+     	se (notas[i] > 7.5)
+     	  escreva(notas[i], "\n")
+     	   
+     }
+
+
+
+	
+  }
+}

@@ -1,0 +1,28 @@
+Algoritmo "troca ordem"
+//
+//
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 05/05/2022
+Var
+ troca, i, j: inteiro
+  n: vetor[1..4] de inteiro
+Inicio
+  para i <- 1 ate 4 faca
+    escreva("valor: ")
+    leia(n[i])
+  fimpara
+  para i <- 1 ate 3 faca
+      para j<- i+1 ate 4 faca
+       se (n[i] > n[j]) entao
+         troca <- n[i]
+         n[i] <- n[j]
+         n[j] <- troca
+       fimse
+      fimpara
+  fimpara
+      escreva( n[1] )
+      escreva ( n[2] )
+      escreva ( n[3] )
+      escreva( n[4])
+Fimalgoritmo
